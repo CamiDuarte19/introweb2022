@@ -16,10 +16,13 @@ background-color: rgb(255, 255, 255);
 }
 
 header {
-    background-color: rgb(255, 25, 21);
+    /* background-color: rgb(67 15 171); */
     color: #fff;
-    padding: 61px 0;
-}
+    padding: 100px 0;
+    background-image:url(../img/fondo.jpg);
+     background-position: center;
+      }
+
 
 header ul {
     list-style: none;
@@ -81,4 +84,50 @@ display: inline-block;
 }
 a{
 color: #fff;
+}
+
+.inicio {
+    background: black;
+    border-style: solid;
+    padding: 6px;
+    /* border: 70px; */
+    /* border-color: chartreuse; */
+    border-radius: 16px;
+}
+
+
+.quien{
+    background: black;
+    border-style: solid;
+    padding: 6px;
+    /* border: 70px; */
+    /* border-color: chartreuse; */
+    border-radius: 16px;
+}
+
+.servicios{
+    background: black;
+    border-style: solid;
+    padding: 6px;
+    /* border: 70px; */
+    /* border-color: chartreuse; */
+    border-radius: 16px;
+}
+
+.productos{
+    background: black;
+    border-style: solid;
+    padding: 6px;
+    /* border: 70px; */
+    /* border-color: chartreuse; */
+    border-radius: 16px;
+}
+
+.contacto{
+    background: black;
+    border-style: solid;
+    padding: 6px;
+    /* border: 70px; */
+    /* border-color: chartreuse; */
+    border-radius: 16px;
 }
