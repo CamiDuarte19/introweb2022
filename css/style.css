@@ -12,61 +12,95 @@ clear: both;
 
 body{
 
-background-color: rgb(255, 255, 255);
+  background-color: rgb(255 241 250)
 }
 
 header {
-    /* background-color: rgb(67 15 171); */
-    color: #fff;
-    padding: 100px 0;
-    background-image:url(../img/fondo.jpg);
-     background-position: center;
-      }
-
-
-header ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    margin-left: 561px;
-    left: -52px;
-    top: -16px;
+/* background-color: rgb(67 15 171); */
+color: #fff;
+padding: 85px 0;
+background-image:url(../img/fondo.jpg);
+background-position: center;
 }
+ /* #main-nav{
+  background-color: #0a0a0a; */
+
+ 
+.btn{
+display: inline-block;
+margin: 0.5rem 0;
+padding: 10px;
+border: 1px #ccc solid;
+border-radius: 5px;
+color: #fff;
+}
+.btn-2{
+  background-color: #0f58dc;
+}
+.btn-2:hover{
+background-color: black;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+header ul {
+list-style: none;
+/* display: flex;
+justify-content: space-between;
+position: relative;
+margin-left: 561px;
+left: -52px;
+top: -71px; */
+}
+
 header a{
 color:#fff;
 text-decoration: none;
 
 }
 footer{
-background-color: #000000;
-color: #fff;
+background-color: #cf0f0f;
+color: beige;
 }
 .container{
 width: 80%;
 margin: 0 auto;
 }
 #Logo img {
-    display: inline;
-    float: left;
-    position: absolute;
-    width: 194px;
-    top: -5px;
+display: inline;
+float: left;
+position: absolute;
+width: 194px;
+top: -5px;
+}
+h1{
+  color: #cf0f0f;
+}
+
+h4{ 
+  color:black
+}
+h2{
+  color: #cf0f0f;
 }
 
 #social {
-    /* float: right; */
-    display: flex;
-    list-style: none;
-    left: 10px;
-    /* flex-direction: row; */
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
-    margin-left: 1261px;
+/* float: right; */
+display: flex;
+list-style: none;
+left: 10px;
+/* flex-direction: row; */
+flex-direction: row-reverse;
+justify-content: space-evenly;
+margin-left: 1261px;
 }
 
 img{
 width: 230px;
+display: block;
+margin: 0px auto;
+margin-block: auto;
 
 }
 
@@ -79,55 +113,111 @@ margin-left: 127px;
 bottom: 460px;
 
 }
-#main-nav ul li {
-display: inline-block;
+
+#main-nav  { 
+  background-color: #333;
+  border: 1px solid #666;
+  border-radius: 5px 5px 0 0;
+  padding: 10px;
+  position: relative;
+  /* margin-top: 2em; */
+  top: 86px;
+}
+
+#main-nav ul li{
+  float: left;
+}
+#main-nav ul li a{
+  padding: 0.5em;
+  font-weight: 600;
+}
+#main-nav ul li a:hover{
+  background-color: #666;
+  border-radius: 5px 5px 0 0;
 }
 a{
 color: #fff;
 }
-
+/* 
 .inicio {
-    background: black;
-    border-style: solid;
-    padding: 6px;
-    /* border: 70px; */
-    /* border-color: chartreuse; */
-    border-radius: 16px;
+background: black;
+border-style: solid;
+padding: 6px;
+border-color: black;
+border-radius: 16px;
 }
 
 
 .quien{
-    background: black;
-    border-style: solid;
-    padding: 6px;
-    /* border: 70px; */
-    /* border-color: chartreuse; */
-    border-radius: 16px;
+background: black;
+border-style: solid;
+padding: 6px;
+border-color: black;
+border-radius: 16px;
 }
 
 .servicios{
-    background: black;
-    border-style: solid;
-    padding: 6px;
-    /* border: 70px; */
-    /* border-color: chartreuse; */
-    border-radius: 16px;
+background: black;
+border-style: solid;
+padding: 6px;
+border-color: black;
+border-radius: 16px;
 }
 
 .productos{
-    background: black;
-    border-style: solid;
-    padding: 6px;
-    /* border: 70px; */
-    /* border-color: chartreuse; */
-    border-radius: 16px;
+background: black;
+border-style: solid;
+padding: 6px;
+border-color: black;
+border-radius: 16px;
 }
 
 .contacto{
-    background: black;
-    border-style: solid;
-    padding: 6px;
-    /* border: 70px; */
-    /* border-color: chartreuse; */
-    border-radius: 16px;
+background: black;
+border-style: solid;
+padding: 6px;
+border-color: black;
+border-radius: 16px;
+} */
+
+
+
+#productos{
+text-align: center;
 }
+.products{
+display: flex;
+align-items: stretch;
+flex-wrap: wrap;
+
+
+}
+.row{
+
+}
+
+.col{}
+
+.prod-box{
+margin: 31px 12px;
+display: block;
+max-width: 100%;
+height: auto;
+padding: 5px 4px;
+*max-width: 100%;
+}
+
+@media only screen and (max-width: 760px) {
+#main-nav{
+display: none;
+}
+.inicio{
+display: none;
+}}
+
+.slideImg{
+display: flex;
+
+}
+
+
