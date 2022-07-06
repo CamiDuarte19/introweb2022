@@ -89,7 +89,7 @@ h2{
 }
 
 #social {
-/* float: right; */
+float: right;
 display: flex;
 list-style: none;
 left: 10px;
