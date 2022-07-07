@@ -21,7 +21,7 @@ color: #fff;
 padding: 85px 0;
 background-image:url(../img/fondo.jpg);
 background-position: center;
-}
+}         
  /* #main-nav{
   background-color: #0a0a0a; */
 
@@ -70,13 +70,7 @@ color: beige;
 width: 80%;
 margin: 0 auto;
 }
-/* #Logo img {
-display: inline;
-float: left;
-position: absolute;
-width: 194px;
-top: -5px;
-} */
+ 
 h1{
   color: #cf0f0f;
 }
@@ -97,6 +91,9 @@ left: 10px;
 flex-direction: row-reverse;
 justify-content: space-evenly;
 margin-left: 1261px;
+}
+#social li a:hover{
+color: #000;
 }
 
 img{
@@ -143,49 +140,6 @@ display: none;
 a{
 color: #fff;
 }
-/* 
-.inicio {
-background: black;
-border-style: solid;
-padding: 6px;
-border-color: black;
-border-radius: 16px;
-}
-
-
-.quien{
-background: black;
-border-style: solid;
-padding: 6px;
-border-color: black;
-border-radius: 16px;
-}
-
-.servicios{
-background: black;
-border-style: solid;
-padding: 6px;
-border-color: black;
-border-radius: 16px;
-}
-
-.productos{
-background: black;
-border-style: solid;
-padding: 6px;
-border-color: black;
-border-radius: 16px;
-}
-
-.contacto{
-background: black;
-border-style: solid;
-padding: 6px;
-border-color: black;
-border-radius: 16px;
-} */
-
-
 
 #productos{
 text-align: center;
@@ -231,13 +185,4 @@ display: none;
 .nav-mobile{
   display: none;
 }
-
-/* img{
-  width: 230px;
-  display: block;
-  margin: 0px auto;
-  margin-block: auto;
-  
-  } */
-
 
